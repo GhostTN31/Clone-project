@@ -436,14 +436,17 @@ html {
 
 .right-1 {
     margin-top: 10px;
-    line-height: 1;
+    line-height: 2;
+    font-size: 18px;
 }
 
 .right-2 {
+    font-size: 18px;
     margin-top: 10px;
 }
 
 .right-3 {
+    font-size: 18px;
     margin-top: 10px;
 }
 
@@ -480,6 +483,10 @@ element.style {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.advantages-text-wrapper {
+    margin-bottom: 100px;
 }
 
 .advantages-text-wrapper {
@@ -560,7 +567,7 @@ element.style {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: rgba(0, 0, 0, 0);
-    -webkit-box-decoration-break: clone;
+    -webkit-box-decoration-break: clone
 }
 
 
@@ -577,16 +584,24 @@ element.style {
     flex: 1;
 }
 
-.planets-location {
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
+*,
+ ::after,
+ ::before {
+    box-sizing: border-box;
+}
+
+@media (min-width:700px) {
+    .planets-location {
+        position: relative;
+        width: 80%;
+        padding-right: 15px;
+        padding-left: 15px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
 }
 
 .advantages-platform-item {
@@ -751,6 +766,8 @@ form {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
 }
 
 .alignments {
@@ -758,6 +775,17 @@ form {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.comments {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
 }
 
 input,
@@ -775,6 +803,13 @@ textarea {
     position: relative;
     transition: .3s;
     max-width: 400px;
+}
+
+textarea {
+    height: 150px;
+    margin-top: 20px;
+    resize: none;
+    overflow: auto;
 }
 
 label {
