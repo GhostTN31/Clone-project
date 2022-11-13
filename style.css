@@ -436,7 +436,8 @@ html {
 
 .right-1 {
     margin-top: 10px;
-    line-height: 1;
+    line-height: 2;
+    font-size: 18px;
 }
 
 .right-2 {
