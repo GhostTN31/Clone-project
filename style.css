@@ -578,16 +578,24 @@ element.style {
     flex: 1;
 }
 
-.planets-location {
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
+*,
+ ::after,
+ ::before {
+    box-sizing: border-box;
+}
+
+@media (min-width:700px) {
+    .planets-location {
+        position: relative;
+        width: 80%;
+        padding-right: 15px;
+        padding-left: 15px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
 }
 
 .advantages-platform-item {
