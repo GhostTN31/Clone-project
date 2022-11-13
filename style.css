@@ -561,7 +561,7 @@ element.style {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: rgba(0, 0, 0, 0);
-    -webkit-box-decoration-break: clone;
+    -webkit-box-decoration-break: clone
 }
 
 
