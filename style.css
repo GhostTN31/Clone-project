@@ -3697,7 +3697,6 @@ label {
 
 
 /*planet part ends
-
 .row-planet {
     display: flex;
     flex-wrap: wrap;
@@ -3705,13 +3704,11 @@ label {
     margin-left: -15px;
     flex: 1;
 }
-
 *,
  ::after,
  ::before {
     box-sizing: border-box;
 }
-
 @media (min-width:700px) {
     .planets-location {
         position: relative;
@@ -3725,12 +3722,10 @@ label {
         max-width: 33.333333%;
     }
 }
-
 .advantages-platform-item {
     width: 100%;
     min-height: 100px;
 }
-
 .advantages-platform-item {
     display: flex;
     flex-direction: column;
@@ -3748,43 +3743,33 @@ label {
     -webkit-animation: planet 60s 3.9s infinite linear;
     margin-top: 70px;
 }
-
 .MERCURY {
     background-image: url('https://www.solarsystemscope.com/images/textures/full/2k_makemake_fictional.jpg');
 }
-
 .MARS {
     background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/mars_texture.jpg');
 }
-
 .VENUS {
     background-image: url('https://nasa3d.arc.nasa.gov/shared_assets/images/ven0aaa2/ven0aaa2-copy-428-321.jpg');
 }
-
 .MOON {
     background-image: url("https://img2.cgtrader.com/items/702173/682fad2a11/92k-moon-color-map-3d-model.jpg");
 }
-
 .JUPITER {
     background-image: url("https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA07782_hires.jpg");
 }
-
 .SATURN {
     background-image: url("https://www.solarsystemscope.com/images/textures/full/2k_saturn.jpg");
 }
-
 .SUN {
     background-image: url("https://www.uswin.run/images/untitled-design-4-68-16484487453x2.jpeg");
 }
-
 .TAIL {
     background-image: url("https://www.solarsystemscope.com/images/textures/full/2k_neptune.jpg");
 }
-
 .HEAD {
     background-image: url("https://pre00.deviantart.net/4677/th/pre/f/2015/314/4/e/pluto_map__2015_nov_10__by_snowfall_the_cat-d918tlb.png");
 }
-
 @keyframes planet {
     0% {
         background-position-y: 0px;
@@ -3793,29 +3778,23 @@ label {
         background-position-y: -1000px;
     }
 }
-
 */
 
 
 /*currency text starts
-
 .block-title {
     font-size: 18px;
     display: block;
     font-family: "Montserrat Bold";
     color: #fff;
 }
-
 .advantages-platform-item .block-text {
     display: block;
 }
-
 .block-text {
     color: rgba(255, 255, 255, 1);
     font-family: Montserrat;
     font-size: 16px;
     line-height: 24px;
 }
-
-
 currency text ends*/
