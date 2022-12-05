@@ -3696,6 +3696,23 @@ label {
 }
 
 
+/*Read me content starts*/
+
+.model-list {
+    color: #62b5e5 !important;
+    width: 100%;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #fff;
+    flex-grow: 1;
+}
+
+
+/*Read me content ends*/
+
+
 /*planet part ends
 .row-planet {
     display: flex;
