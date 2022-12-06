@@ -3664,7 +3664,7 @@ label {
 }
 
 .newBody .panel h1::after {
-    width: 30px;
+    width: 155px;
     height: 2px;
     background: black;
     display: block;
