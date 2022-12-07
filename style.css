@@ -73,7 +73,7 @@ main {
 /*body*/
 
 body {
-    background: #1a233a;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     color: #929293;
     font-family: Montserrat;
     font-size: 12px;
@@ -326,7 +326,6 @@ html {
     padding: 0 0 60px;
     position: relative;
     padding: 60px 0px;
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -707,7 +706,7 @@ element.style {
 /*footer part starts*/
 
 .section {
-    padding: 0 0 60px;
+    padding: 140px 0 60px;
     position: relative;
 }
 
@@ -992,7 +991,7 @@ label {
 
 .newBody {
     overflow: hidden;
-    background: black;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     height: 100vh;
     font-family: "Montserrat", sans-serif;
 }
