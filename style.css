@@ -413,8 +413,6 @@ html {
 .col-lg-6 {
     position: relative;
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
     flex: 0 0 50%;
     max-width: 50%;
     flex: 1;
@@ -424,8 +422,6 @@ html {
 .right-side {
     position: relative;
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
     flex: 0 0 50%;
     max-width: 50%;
 }
@@ -992,7 +988,7 @@ label {
 .newBody {
     overflow: hidden;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-    height: 100vh;
+    height: 115vh;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -3710,6 +3706,137 @@ label {
 
 
 /*Read me content ends*/
+
+
+/*Responsive part starts*/
+
+@media(max-width:991px) {
+    .btn {
+        height: 50px;
+        font-size: 14px;
+        line-height: 17px
+    }
+}
+
+@media(max-width:991px) {
+    .heading .heading-logo-text {
+        margin: 0 0 20px
+    }
+}
+
+@media(min-width:991px) {
+    .heading-content-text {
+        min-height: 500px
+    }
+}
+
+@media(max-width:991px) {
+    .heading-desc {
+        font-size: 18px;
+        line-height: 28px
+    }
+}
+
+@media(max-width:991px) {
+    .heading-btns {
+        margin-top: -50px;
+        flex-direction: column;
+        width: 100%
+    }
+    .heading-btns .btn {
+        width: 100%
+    }
+    .heading-btns .btn+.btn {
+        margin-left: 0;
+        margin-top: 10px
+    }
+    .heading-btns .btn-mini {
+        display: none
+    }
+}
+
+@media(max-width:991px) {
+    .middle-content {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 0
+    }
+}
+
+@media(max-width:991px) {
+    .middle-content-text-wrapper {
+        text-align: center;
+        margin-bottom: 60px
+    }
+}
+
+@media(min-width:991px) {
+    .container {
+        max-width: 1236px;
+        padding: 0 20px
+    }
+}
+
+@media(max-width:991px) {
+    .container {
+        max-width: 100%
+    }
+}
+
+@media (min-width: 992px) {
+    .split {
+        -ms-flex: 0 0 8.333333%;
+        flex: 0 0 8.333333%;
+        max-width: 8.333333%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-5 {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media(max-width:991px) {
+    .newContainer {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+}
+
+@media(max-width:991px) {
+    .planet_description {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+}
+
+@media (min-width: 768px) {
+    .alignments {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+
+/*Responsive part ends*/
 
 
 /*planet part ends
