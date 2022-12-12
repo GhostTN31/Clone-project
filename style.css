@@ -988,7 +988,7 @@ label {
 .newBody {
     overflow: hidden;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-    height: 100vh;
+    height: 900px;
     font-family: "Montserrat", sans-serif;
 }
 
