@@ -1271,7 +1271,6 @@ label {
     opacity: -0.1;
     border-radius: 100%;
     z-index: 0;
-    box-shadow: 0px -190px 215px 110px black inset;
 }
 
 .newBody input[type=radio][name=planet] {
@@ -3156,17 +3155,17 @@ label {
 
 .newBody .solar_systm .planet.mercury {
     background: url("https://www.solarsystemscope.com/images/textures/full/2k_makemake_fictional.jpg");
-    box-shadow: 0 -590px 150px black inset, 0 0px 130px 40px rgba(234, 205, 199, 0.6) inset, 0 0px 23px 4px rgba(234, 205, 199, 0.6) inset, 0 -10px 130px rgba(188, 143, 127, 0.6);
+    /*box-shadow: 0 -590px 150px black inset, 0 0px 130px 40px rgba(234, 205, 199, 0.6) inset, 0 0px 23px 4px rgba(234, 205, 199, 0.6) inset, 0 -10px 130px rgba(188, 143, 127, 0.6);*/
 }
 
 .newBody .solar_systm .planet.venus {
     background: url("https://nasa3d.arc.nasa.gov/shared_assets/images/ven0aaa2/ven0aaa2-copy-428-321.jpg");
-    box-shadow: 0 -590px 150px black inset, 0 0px 130px 40px #ffcb9c inset, 0 0px 23px 4px #ffcb9c inset, 0 -10px 130px #b85a07;
+    /*box-shadow: 0 -590px 150px black inset, 0 0px 130px 40px #ffcb9c inset, 0 0px 23px 4px #ffcb9c inset, 0 -10px 130px #b85a07;*/
 }
 
 .newBody .solar_systm .planet.earth {
     background: url("https://www.solarsystemscope.com/images/textures/full/2k_neptune.jpg");
-    box-shadow: 0 -590px 150px black inset, 0 0px 130px 40px #8cbaff inset, 0 0px 23px 4px #8cbaff inset, 0 -10px 130px #7894a9;
+    /*box-shadow: 0 -590px 150px black inset, 0 0px 130px 40px #8cbaff inset, 0 0px 23px 4px #8cbaff inset, 0 -10px 130px #7894a9;*/
 }
 
 .newBody .solar_systm .planet.earth .trajectory.m {
@@ -3191,7 +3190,7 @@ label {
 
 .newBody .solar_systm .planet.mars {
     background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/mars_texture.jpg");
-    box-shadow: 0 -590px 150px black inset, 0 0px 130px 40px #e86363 inset, 0 0px 23px 4px #e86363 inset, 0 -10px 130px #6b261a;
+    /*box-shadow: 0 -590px 150px black inset, 0 0px 130px 40px #e86363 inset, 0 0px 23px 4px #e86363 inset, 0 -10px 130px #6b261a;*/
 }
 
 .newBody .solar_systm .planet.mars .moon h3 {
@@ -3232,7 +3231,7 @@ label {
 
 .newBody .solar_systm .planet.jupiter {
     background: url("https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA07782_hires.jpg");
-    box-shadow: 0 -590px 150px black inset, 0 0px 130px 40px rgba(234, 205, 199, 0.6) inset, 0 0px 23px 4px rgba(234, 205, 199, 0.6) inset, 0 -10px 130px rgba(188, 143, 127, 0.6);
+    /*box-shadow: 0 -590px 150px black inset, 0 0px 130px 40px rgba(234, 205, 199, 0.6) inset, 0 0px 23px 4px rgba(234, 205, 199, 0.6) inset, 0 -10px 130px rgba(188, 143, 127, 0.6);*/
 }
 
 .newBody .solar_systm .planet.jupiter .moon h3 {
@@ -3289,7 +3288,7 @@ label {
 
 .newBody .solar_systm .planet.saturn {
     background: url("https://www.solarsystemscope.com/images/textures/full/2k_saturn.jpg");
-    box-shadow: 0 -590px 150px black inset, 0 0px 130px 40px rgba(234, 205, 199, 0.6) inset, 0 0px 23px 4px rgba(234, 205, 199, 0.6) inset, 0 -10px 130px rgba(188, 143, 127, 0.6);
+    /*box-shadow: 0 -590px 150px black inset, 0 0px 130px 40px rgba(234, 205, 199, 0.6) inset, 0 0px 23px 4px rgba(234, 205, 199, 0.6) inset, 0 -10px 130px rgba(188, 143, 127, 0.6);*/
 }
 
 .newBody .solar_systm .planet.saturn .moon h3 {
@@ -3346,7 +3345,7 @@ label {
 
 .newBody .solar_systm .planet.uranus {
     background: url("https://pre00.deviantart.net/4677/th/pre/f/2015/314/4/e/pluto_map__2015_nov_10__by_snowfall_the_cat-d918tlb.png");
-    box-shadow: 0 -590px 150px black inset, 0 0px 130px 40px rgba(234, 205, 199, 0.6) inset, 0 0px 23px 4px rgba(234, 205, 199, 0.6) inset, 0 -10px 130px rgba(127, 188, 171, 0.6);
+    /*box-shadow: 0 -590px 150px black inset, 0 0px 130px 40px rgba(234, 205, 199, 0.6) inset, 0 0px 23px 4px rgba(234, 205, 199, 0.6) inset, 0 -10px 130px rgba(127, 188, 171, 0.6);*/
 }
 
 .newBody .solar_systm .planet.uranus .moon h3 {
@@ -3403,7 +3402,7 @@ label {
 
 .newBody .solar_systm .planet.neptune {
     background: url("https://img2.cgtrader.com/items/702173/682fad2a11/92k-moon-color-map-3d-model.jpg");
-    box-shadow: 0 -590px 150px black inset, 0 0px 130px 40px rgba(234, 205, 199, 0.6) inset, 0 0px 23px 4px rgba(234, 205, 199, 0.6) inset, 0 -10px 130px #2d4153;
+    /*box-shadow: 0 -590px 150px black inset, 0 0px 130px 40px rgba(234, 205, 199, 0.6) inset, 0 0px 23px 4px rgba(234, 205, 199, 0.6) inset, 0 -10px 130px #2d4153;*/
 }
 
 .newBody .solar_systm .planet.neptune .moon h3 {
@@ -3460,7 +3459,7 @@ label {
 
 .newBody .solar_systm .planet.pluto {
     background: url("https://www.uswin.run/images/untitled-design-4-68-16484487453x2.jpeg");
-    box-shadow: 0 -590px 150px black inset, 0 0px 130px 40px rgba(234, 205, 199, 0.6) inset, 0 0px 23px 4px rgba(234, 205, 199, 0.6) inset, 0 -10px 130px #2d4153;
+    /*box-shadow: 0 -590px 150px black inset, 0 0px 130px 40px rgba(234, 205, 199, 0.6) inset, 0 0px 23px 4px rgba(234, 205, 199, 0.6) inset, 0 -10px 130px #2d4153;*/
 }
 
 .newBody .solar_systm .planet_description {
@@ -3606,7 +3605,7 @@ label {
 .newBody .panel {
     position: absolute;
     right: -520px;
-    width: 300px;
+    width: 425px;
     top: 0;
     height: 100vh;
     transition: all 0.2s;
@@ -3659,7 +3658,7 @@ label {
 }
 
 .newBody .panel h1::after {
-    width: 155px;
+    width: ;
     height: 2px;
     background: black;
     display: block;
