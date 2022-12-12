@@ -1241,7 +1241,7 @@ label {
     top: 0;
     left: 0;
     z-index: 3;
-    height: 100vh;
+    height: 900px;
     transition: all 0.2s;
     z-index: 10;
     width: 0;
@@ -3607,7 +3607,7 @@ label {
     right: -520px;
     width: 425px;
     top: 0;
-    height: 100vh;
+    height: 900px;
     transition: all 0.2s;
     color: black;
     background: white;
