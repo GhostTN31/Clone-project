@@ -702,7 +702,7 @@ element.style {
 /*footer part starts*/
 
 .section {
-    padding: 105px 0 70px;
+    padding: 115px 0 70px;
     position: relative;
 }
 
@@ -1070,8 +1070,8 @@ label {
     content: "";
     z-index: 2;
     position: absolute;
-    top: -4px;
-    left: -4px;
+    top: -2px;
+    left: -2px;
 }
 
 .newBody label.menu:hover h2,
@@ -2976,7 +2976,7 @@ label {
 .newBody .solar_systm:nth-of-type(2) .planet_description h1,
 .newBody .solar_systm:nth-of-type(2) .planet_description h2 {
     position: relative;
-    /*top: -330px;*/
+    top: -330px;
     transition: all 0.5s 0s;
 }
 
