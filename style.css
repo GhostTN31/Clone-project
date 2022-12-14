@@ -1189,7 +1189,7 @@ label {
 }
 
 .newBody label.menu:nth-of-type(7) {
-    top: calc(50vh + 100px + ((14px + 34px) * 7) + 0px - 369px);
+    top: calc(45vh + 100px + ((14px + 34px) * 7) + 0px - 369px);
 }
 
 .newBody label.menu:nth-of-type(8) {
