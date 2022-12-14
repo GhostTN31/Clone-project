@@ -1165,39 +1165,39 @@ label {
 }
 
 .newBody label.menu:nth-of-type(1) {
-    top: calc(45vh + 100px + ((14px + 34px) * 1) + 0px - 369px);
+    top: calc(40vh + 100px + ((14px + 34px) * 1) + 0px - 369px);
 }
 
 .newBody label.menu:nth-of-type(2) {
-    top: calc(45vh + 100px + ((14px + 34px) * 2) + 0px - 369px);
+    top: calc(40vh + 100px + ((14px + 34px) * 2) + 0px - 369px);
 }
 
 .newBody label.menu:nth-of-type(3) {
-    top: calc(45vh + 100px + ((14px + 34px) * 3) + 0px - 369px);
+    top: calc(40vh + 100px + ((14px + 34px) * 3) + 0px - 369px);
 }
 
 .newBody label.menu:nth-of-type(4) {
-    top: calc(45vh + 100px + ((14px + 34px) * 4) + 0px - 369px);
+    top: calc(40vh + 100px + ((14px + 34px) * 4) + 0px - 369px);
 }
 
 .newBody label.menu:nth-of-type(5) {
-    top: calc(45vh + 100px + ((14px + 34px) * 5) + 0px - 369px);
+    top: calc(40vh + 100px + ((14px + 34px) * 5) + 0px - 369px);
 }
 
 .newBody label.menu:nth-of-type(6) {
-    top: calc(45vh + 100px + ((14px + 34px) * 6) + 0px - 369px);
+    top: calc(40vh + 100px + ((14px + 34px) * 6) + 0px - 369px);
 }
 
 .newBody label.menu:nth-of-type(7) {
-    top: calc(45vh + 100px + ((14px + 34px) * 7) + 0px - 369px);
+    top: calc(40vh + 100px + ((14px + 34px) * 7) + 0px - 369px);
 }
 
 .newBody label.menu:nth-of-type(8) {
-    top: calc(45vh + 100px + ((14px + 34px) * 8) + 0px - 369px);
+    top: calc(40vh + 100px + ((14px + 34px) * 8) + 0px - 369px);
 }
 
 .newBody label.menu:nth-of-type(9) {
-    top: calc(45vh + 100px + ((14px + 34px) * 9) + 0px - 369px);
+    top: calc(40vh + 100px + ((14px + 34px) * 9) + 0px - 369px);
 }
 
 .newBody input.read {
