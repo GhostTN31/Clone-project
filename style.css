@@ -700,6 +700,7 @@ html {
 .section {
     padding: 78px 0 10px;
     position: relative;
+     z-index: 10;
 }
 
 .container {
