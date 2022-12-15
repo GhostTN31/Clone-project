@@ -1246,7 +1246,7 @@ label {
 }
 
 .newBody label.closeBig::after {
-    content: "Back";
+    content: "Close";
     text-align: center;
     font-size: 30px;
     color: white;
