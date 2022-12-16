@@ -1259,12 +1259,12 @@ label {
 }
 
 .newBody .overlay {
-    width: 1770px;
+    width: 1010px;
     height: 620px;
     top: auto;
     transform: none;
     top: -240px;
-    left: -303px;
+    left: -503px;
     opacity: -0.1;
     border-radius: 100%;
     z-index: 0;
