@@ -3703,6 +3703,17 @@ label {
 
 /*Read me content ends*/
 
+.section_dash {
+    padding: 0px 0 10px;
+    position: relative;
+    z-index: 10;
+}
+
+.container_dash {
+    max-width: 1236px;
+    padding: 0px 20px;
+}
+
 
 /*Responsive part starts*/
 
